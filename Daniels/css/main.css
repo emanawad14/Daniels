@@ -1,0 +1,172 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(../imgs/bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about .image-hero{
+    padding: 0 0 0 30px;
+}
+.about .image-hero{
+    content: '';
+    width: 80%;
+    height: 80%;
+    background-image: url(../imgs/dots.png);
+    left: 0;
+    bottom: -30px;
+    background-repeat: repeat;
+    position: absolute;
+    z-index: -1;
+}
+/* =============================== */
+.serves{
+    background-color:rgb(247, 247, 247);
+}
+.serves h2{
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+   
+}
+.serves h2::after{
+    content: '';
+    width: 100%;
+    width: 30px;
+    position: absolute;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    left: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+.serves .icons i{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220, 217, 217);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all .4s;
+}
+.serves .icons i:hover{
+    color: white;
+    background-color: black;
+}
+.serves h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* =================================== */
+.work .caption-works h3{
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+}
+.work .caption-works h3::after{
+    content: '';
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+/*======================================= */
+
+ .section-team h3{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    
+}
+ .section-team h3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    bottom: -10px;
+    left: 0;
+   
+    z-index: -1;
+}
+
+.team .team-overlay{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 2%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    transition: all .5s ease, opacity 0.5s ease;
+    opacity: 0;
+    z-index: 10000;
+
+}
+.item-card:hover .team-overlay{
+    transform: rotateY(0) scale(1);
+    opacity: 1;
+}
+
+.team .social-media {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 50%;
+    color: aliceblue;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .social-media:hover{
+    background-color: aliceblue;
+    color:rgb(0, 0, 0) ;
+
+}
+
+
+.item-card{
+    transition: all .5s;
+    overflow: hidden;
+}
+.item-card img{
+    position: relative;
+    transition: all .5s;
+    z-index: 999;
+
+}
+
+.item-card:hover img{
+    transform: scale(1.2);
+}
+
+.team .boby-joh{
+    background-color: #5B5B5B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
